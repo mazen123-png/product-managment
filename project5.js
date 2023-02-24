@@ -150,28 +150,6 @@ function searchData(value) {
     document.getElementById('tbody').innerHTML = table;
 }
 
-var total = document.getElementById('total')
 
-function getTotal() {
-        if (money.value != '') {
-            let result = (+money.value)
-            total.innerHTML = result;
-            total.style.background = '#040';
-        } else {
-            total.innerHTML = ''
-            total.style.background = '#a00d02';
-        }
-    }
-
-getTotal()
-
-//new
-
-//https://www.youtube.com/watch?v=ix5Prxw5r_8
-//https://www.youtube.com/watch?v=xi0vhXFPegw
-
-
-
-//2new
 
 

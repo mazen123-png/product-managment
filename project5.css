@@ -49,9 +49,7 @@ input:focus {
     border-radius: 4px;
 }
 
-#total::before {
-    content: "Total_sallery: ";
-}
+
 
 button {
     width: 100%;
